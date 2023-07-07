@@ -3,8 +3,12 @@
   "displayName": "amg-snippets",
   "description": "",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CassChris/amg-snippets"
+  },
   "engines": {
-    "vscode": "^1.80.0"
+    "vscode": "^1.73.2"
   },
   "categories": [
     "Snippets"
@@ -13,7 +17,11 @@
     "snippets": [
       {
         "language": "vue",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/vue-snippets.code-snippets"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/php-snippets.code-snippets"
       }
     ]
   }

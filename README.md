@@ -1,65 +1,39 @@
-# amg-snippets README
+# Nombre de la extensión
 
-This is the README for your extension "amg-snippets". After writing up a brief description, we recommend including the following sections.
+Descripción breve de la extensión.
 
-## Features
+## Características
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Lista de características clave de la extensión.
+- Enumera los beneficios y ventajas de usar la extensión.
+- Destaca los aspectos únicos o diferenciadores de la extensión.
 
-For example if there is an image subfolder under your extension project workspace:
+## Instalación
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Abre Visual Studio Code.
+2. Ve a la pestaña de extensiones (Ctrl+Shift+X).
+3. Busca "Nombre de la extensión" en el Marketplace.
+4. Haz clic en "Instalar" para añadir la extensión a tu editor.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Uso
 
-## Requirements
+1. Describe cómo utilizar los snippets proporcionados por la extensión.
+2. Proporciona ejemplos de código o capturas de pantalla para mostrar cómo los snippets se insertan y utilizan.
+3. Explica cualquier configuración adicional o personalización que los usuarios puedan necesitar.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Contribución
 
-## Extension Settings
+1. Indica cómo los usuarios pueden contribuir a la extensión.
+2. Enlaza a cualquier guía o documentación sobre cómo contribuir.
+3. Agradece a los posibles contribuyentes y describe cómo pueden ponerse en contacto contigo.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## Soporte
 
-For example:
+- Proporciona instrucciones para obtener soporte o informar problemas.
+- Incluye enlaces a problemas o solicitudes de función en el repositorio de la extensión.
+- Ofrece información de contacto adicional si es necesario.
 
-This extension contributes the following settings:
+## Licencia
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Indica la licencia bajo la cual se distribuye la extensión.
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**

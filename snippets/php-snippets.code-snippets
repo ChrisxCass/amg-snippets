@@ -1,0 +1,31 @@
+{
+    "generate controller": {
+        "prefix": "!amgcontroller",
+        "body": [
+        "public function ${1:functionExample}(Request $$request)",
+        "{",
+        "    $$parameter = [",
+        "        $$request->example1,",
+        "    ];",
+        "",
+        "    $$statement = \"call sp_example(?)\";",
+        "",
+        "    try {",
+        "        DB::select($$statement, $$parameter);",
+        "        return response()->json([",
+        "            \"success\" => true,",
+        "            \"message\" => \"Processed successfully\",",
+        "        ], 200);",
+        "    } catch (Throwable $$th) {",
+        "        return response()->json([",
+        "            \"error\" => $$th,",
+        "            \"success\" => false,",
+        "            \"message\" => \"Error ${2:exampleController}::${1:functionExample}()\",",
+        "        ], 500);",
+        "    }",
+        "}"
+        ],
+        "description": "create amg controller php"
+    }
+}
+  

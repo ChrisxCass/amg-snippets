@@ -16,7 +16,7 @@
             
             "<script>",
             "export default {",
-            "  async created() {",
+            "  created() {",
             "    this.isActive = true,",
             "  },",
             "  methods: {",
@@ -27,6 +27,7 @@
             "  },",
             "};",
             "</script>"
-        ]
+        ],
+        "description": "create amg modal vue"
     }
 }

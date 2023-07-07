@@ -1,0 +1,32 @@
+{
+    "generate modal": {
+        "prefix": "!amgmodal",
+        "body": [
+            "<template>",
+            "   <b-modal",
+            "     v-model=\"isActive\"",
+            "     title=\"${1:title modal default}\"",
+            "     title-tag=\"h2\"",
+            "     @hidden=\"closeMe(false)\"",
+            "     hide-footer",
+            "   >",
+            "       <h2>${2:TITLE DEFAULT}</h2>",
+            "   </b-modal>",
+            "</template>",
+            
+            "<script>",
+            "export default {",
+            "  async created() {",
+            "    this.isActive = true,",
+            "  },",
+            "  methods: {",
+            "    closeMe() {",
+            "      this.isActive = false,",
+            "      this.$emit(\"close\"),",
+            "    },",
+            "  },",
+            "};",
+            "</script>"
+        ]
+    }
+}

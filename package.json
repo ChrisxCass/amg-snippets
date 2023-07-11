@@ -22,7 +22,12 @@
       {
         "language": "php",
         "path": "./snippets/php-snippets.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/js-snippets.code-snippets"
       }
+
     ]
   }
 }
